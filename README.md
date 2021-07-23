@@ -1,11 +1,18 @@
 # Deploy A Simple Flask Project To Remote Server
 
-- Clone the project:
+Clone this repository:
 
-- Set up your virtual enviroment
+    git clone https://github.com/dungbachviet/flask-project.git
 
-- Install some essential library
+Set up your virtual enviroment
 
-- Run Flask
+    virtualenv -p python3 my_env
 
-- Deploy to remote server
+Install some essential library
+pip install -r requirements.txt
+
+Run Flask
+
+    flask run
+
+Deploy to remote server
